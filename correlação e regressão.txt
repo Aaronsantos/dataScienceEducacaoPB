@@ -1,0 +1,69 @@
+IDEB INICIAIS:
+
+Correlação:
+
+data:  amostra$Investimento.por.matricula and amostra$IDEB...4.e.5
+t = 0.15817, df = 216, p-value = 0.8745
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.1222912  0.1434345
+sample estimates:
+       cor 
+0.01076164 
+
+Regressão:
+
+Call:
+lm(formula = amostra$IDEB...4.e.5 ~ amostra$Investimento.por.matricula)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.82620 -0.51376 -0.04563  0.45569  2.46041 
+
+Coefficients:
+                                    Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                        4.607e+00  2.225e-01  20.711   <2e-16 ***
+amostra$Investimento.por.matricula 4.831e-06  3.054e-05   0.158    0.874    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.715 on 216 degrees of freedom
+  (17 observations deleted due to missingness)
+Multiple R-squared:  0.0001158,	Adjusted R-squared:  -0.004513 
+F-statistic: 0.02502 on 1 and 216 DF,  p-value: 0.8745
+
+ANOS FINAIS
+
+Correlação:
+
+	Pearson's product-moment correlation
+
+data:  amostra$Investimento.por.matricula and amostra$IDEB...8.e.9
+t = 0.78199, df = 206, p-value = 0.4351
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.08224704  0.18904481
+sample estimates:
+      cor 
+0.0544028 
+
+Regressão:
+
+Call:
+lm(formula = amostra$IDEB...8.e.9 ~ amostra$Investimento.por.matricula)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.68674 -0.46371 -0.05353  0.37390  1.82850 
+
+Coefficients:
+                                    Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                        3.522e+00  2.018e-01  17.453   <2e-16 ***
+amostra$Investimento.por.matricula 2.164e-05  2.768e-05   0.782    0.435    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.6381 on 206 degrees of freedom
+  (27 observations deleted due to missingness)
+Multiple R-squared:  0.00296,	Adjusted R-squared:  -0.00188 
+F-statistic: 0.6115 on 1 and 206 DF,  p-value: 0.4351
